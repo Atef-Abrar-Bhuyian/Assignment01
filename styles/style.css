@@ -103,7 +103,7 @@
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
   width: 1100px;
-
+  height: 1050px;
   margin: 0 auto;
   margin-top: 75px;
 }
@@ -185,18 +185,11 @@
 
 .my-missions-section-content a {
   text-decoration: none;
-
   color: rgb(13, 19, 33);
   font-family: "Azeret Mono", monospace;
   font-size: 16px;
   font-weight: 600;
 }
-
-.my-missions-section-content-container img {
-  width: 100%;
-  height: 100%;
-}
-
 .my-mission-section-container {
   display: flex;
   flex-direction: column;
