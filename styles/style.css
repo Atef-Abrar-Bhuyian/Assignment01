@@ -96,3 +96,123 @@
 }
 
 /* Hero section style ends here */
+
+/* Why Web Development Section Start here  */
+
+.why-web-dev-section {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  width: 1100px;
+
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+.why-web-dev-content {
+  width: 900px;
+  height: 1000px;
+  margin: 80px auto;
+}
+
+.why-web-dev-content-heading {
+  margin-bottom: 50px;
+}
+
+.why-web-dev-content-heading h1 {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.why-web-dev-content-heading p {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+  padding: 0 48px;
+}
+
+.my-missions-section-content-container {
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  justify-content: space-between;
+  width: 900px;
+  margin-bottom: 32px;
+}
+
+.my-missions-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 45%;
+  padding: 48px;
+}
+
+.my-missions-section-content h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono", monospace;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.my-missions-section-content p {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.my-missions-section-content button {
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  width: 150px;
+  padding: 10px 18px 10px 18px;
+  background-color: transparent;
+}
+
+.my-missions-section-content a {
+  text-decoration: none;
+
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.my-missions-section-content-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.my-mission-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.my-missions-section-content-container2 {
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  justify-content: space-evenly;
+  width: 900px;
+  margin-bottom: 32px;
+}
+/* Why Web Development Section Ends here */
