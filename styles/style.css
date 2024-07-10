@@ -441,4 +441,30 @@
 
 /* Footer Style Start Here */
 
+#footer {
+  height: 100px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-content {
+  padding: 32px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-content h3 {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 20px;
+  font-weight: 600;
+}
+.social-media-icons {
+  display: flex;
+  gap: 20px;
+}
+.social-media-icons img {
+  width: 36px;
+  height: 36px;
+}
 /* Footer Style Ends Here */
