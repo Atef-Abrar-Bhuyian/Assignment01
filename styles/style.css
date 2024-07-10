@@ -8,6 +8,10 @@
 
 /* Header Section Style Starts Here */
 
+.header-name-color {
+  color: rgb(9, 65, 197);
+}
+
 .header-section {
   display: flex;
   justify-content: space-between;
@@ -423,6 +427,7 @@
   height: 50px;
   width: 500px;
   padding: 12px;
+  border: none;
 }
 
 .need-support-form button {
@@ -436,6 +441,7 @@
   font-weight: 600;
   padding: 10px 20px;
   cursor: pointer;
+  border: none;
 }
 
 /*  I need Support Section Style Ends Here  */
@@ -451,13 +457,14 @@
   padding: 32px 0px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30%;
 }
 
 .footer-content h3 {
   color: rgb(13, 19, 33);
   font-family: "Azeret Mono", monospace;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 .social-media-icons {
