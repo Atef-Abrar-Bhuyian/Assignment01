@@ -368,6 +368,98 @@
 
 /* My Current Target Section Ends Here */
 
+/* Next Target Section Start Here */
+
+.my-next-target {
+  width: 1150px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 50px auto;
+}
+
+.next-target-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  text-align: center;
+}
+
+.next-target-content h1 {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.next-target-content p {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+  width: 80%;
+}
+
+.next-targeted-languages {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  margin: 0px 24px;
+}
+
+.next-targeted-languages img {
+  width: 95px;
+  height: 85px;
+}
+
+.next-targeted-languages h2 {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 8px 0px;
+}
+
+.next-targeted-languages p {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.next-targeted-languages button {
+  margin-top: 30px;
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nodejs-image {
+  width: 100px;
+  height: 60px;
+}
+
+.all-languages {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Next Target Section Ends Here */
+
 /*  I need Support Section Style Start Here  */
 
 .need-support {
